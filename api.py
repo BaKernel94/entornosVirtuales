@@ -36,6 +36,7 @@ while True:
             print("Paso No." +str(contador)+ ":" + (each["narrative"]))
             #+"(" + str("{:2f}".format((each["distance"])*1.61) + "Km")))
             #+TEST CAMBIOS
+            #Prueba de cambio 001
             contador = contador + 1
         print("=========== FIN DE LA RUTA ===========")
 
