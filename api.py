@@ -34,6 +34,7 @@ while True:
         for each in json_data["route"]["legs"][0]["maneuvers"]:
             print("Paso No." +str(contador)+ ":" + (each["narrative"]))
             #+"(" + str("{:2f}".format((each["distance"])*1.61) + "Km")))
+            #+TEST CAMBIOS
             contador = contador + 1
         print("=========== FIN DE LA RUTA ===========")
 
