@@ -24,6 +24,7 @@ while True:
     json_status = json_data["info"]["statuscode"]
 
     if json_status == 0:
+        #extracción de datos
         print("Estatus de la API:" + str(json_status) + "= 0 Se encontro la ruta.\n")
         print("Instrucciones de: " +(orig) + " a: " +(dest))
         print("Duración aproximada: " +str(json_data["route"]["formattedTime"]))
